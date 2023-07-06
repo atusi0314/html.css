@@ -33,25 +33,34 @@
     margin: 0 20px;
   }
 
- .header-bottom{
-     width: 100%;
-     height: 50px;
 
- }
 
  .main-visual {
    width: 100%;
    height: 300px;
-
+   background-image: url(img/mv.jpg);
+   background-size: cover;
+   background-position: center;
  }
 
  .main-content {
-     width: 350px;
-     height: 300px;
-
+    width: 40%;
+    height: 300px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding-top: 105px;
+ }
+ 
+ .main-text {
+     color: #fff;
+ }
+ 
+ .main-name {
+     margin-top: 30px;
+     color: #fff;
  }
 
- main {
+ .main {
    width: 840px;
    display: flex;
    justify-content: center;
