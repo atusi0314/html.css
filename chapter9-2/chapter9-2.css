@@ -13,6 +13,53 @@ header {
 main {
   margin: 50px auto;
   width: 960px;
+  display: flex;
+}
+
+.main-item {
+  width: 300px;
+  position: relative;
+  background-color: #EEEEEE;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.main-item:last-child {
+  margin-right: 0;
+}
+
+
+.main-step {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FF9A4B;
+  color: white;
+}
+
+.main-picture1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-picture2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-picture3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-item h3 {
+  margin: 15px 0 5px;
 }
 
 footer {
